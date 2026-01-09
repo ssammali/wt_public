@@ -1,6 +1,6 @@
 {
   "storeName": "website_live",
-  "lastUpdate": "2026-01-09T13:54:40.421Z",
+  "lastUpdate": "2026-01-09T13:59:23.640Z",
   "siteName": "Sandra Sammali",
   "enableCA": false,
   "siteDomain": "https://sandrasammali.com",
@@ -4904,7 +4904,7 @@
           "slotName": "default",
           "component": {
             "anchorName": "contact",
-            "url": "https://sandrasammali.com/form-submit",
+            "url": "https://sandrasammali.com/form-submit/send-form",
             "title$L": [
               "Begin Your Story",
               "Inizia la Tua Storia",
