@@ -1,6 +1,6 @@
 {
   "storeName": "website_live",
-  "lastUpdate": "2026-01-09T12:31:31.610Z",
+  "lastUpdate": "2026-01-09T13:54:40.421Z",
   "siteName": "Sandra Sammali",
   "enableCA": false,
   "siteDomain": "https://sandrasammali.com",
@@ -1846,7 +1846,7 @@
     "54": {
       "blockName": "Header Main",
       "blockType": 1,
-      "htmlCode": "<header class=\"primaryColors secondaryColors neutralColors background \">\n\n        \n        <div class=\"container mx-auto px-6 py-1.5 flex justify-between items-center\">\n            <span class=\"logo-header my-auto mx-4 whitespace-nowrap\">{{logoText}}</span>\n            <nav class=\"hidden lg:flex items-center gap-8\">\n                {{#each mainLinks}}\n                    {{mainLinks.this;<a class=\"transition-colors mainLinkColor mainLinkColorEffect\">[text]</a>}}\n                {{/each mainLinks}}\n\n                {{contact;<a class=\"rightLinkColor px-6 py-2.5 mr-8 rounded-lg\">[text]</a>}}\n\n\n\n            </nav>\n            \n            <div class=\"flex my-auto\">\n                {{themeLight;<a class=\"flex px-6 py-1 rounded-lg mainLinkColor\"><span class=\"\">[icon]</span><span class=\"my-auto text-sm\">[text]</span></a>}}\n                {{themeDark;<a class=\"flex px-6 py-1 rounded-lg mainLinkColor\"><span >[icon]</span><span class=\"my-auto text-sm\">[text]</span></a>}}\n                <span class=\"my-auto\">{{langMenu}}</span>\n            </div>\n            \n        </div>\n\n</header>",
+      "htmlCode": "<header class=\"primaryColors secondaryColors neutralColors background\">\n    <div class=\"container mx-auto px-6 py-1.5 flex justify-between items-center\">\n        \n        <div class=\"flex text-3xl logoText my-auto mx-4\">\n            <span class=\"logo-header\">{{logoText}}</span>\n        </div>\n        \n        <nav class=\"hidden lg:flex items-center gap-8\">\n            {{#each mainLinks}}\n                {{mainLinks.this;<a class=\"transition-colors mainLinkColor mainLinkColorEffect\">[text]</a>}}\n            {{/each mainLinks}}\n            \n            {{contact;<a class=\"rightLinkColor px-6 py-2.5 mr-8 rounded-lg\">[text]</a>}}\n\n        </nav>\n\n        <div class=\"hidden lg:flex my-auto\">\n            {{themeLight;<a class=\"flex px-6 py-1 rounded-lg mainLinkColor\"><span class=\"\">[icon]</span><span class=\"my-auto text-sm\">[text]</span></a>}}\n            {{themeDark;<a class=\"flex px-6 py-1 rounded-lg mainLinkColor\"><span >[icon]</span><span class=\"my-auto text-sm\">[text]</span></a>}}\n            <span class=\"my-auto\">{{langMenu}}</span>\n        </div>\n        \n\n        \n        <button id=\"mobileMenuBtn\" class=\"lg:hidden ml-4 rounded-lg p-1\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-8 h-8\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n                <path fill-rule=\"evenodd\" d=\"M3 6h18v2H3V6Zm0 5h18v2H3v-2Zm0 5h18v2H3v-2Z\"/>\n            </svg>\n        </button>\n    </div>\n\n    \n    <div id=\"mobileMenu\" class=\"lg:hidden max-h-0 overflow-hidden transition-all duration-300 background\">\n        <nav class=\"px-6 pb-4 flex flex-col gap-4\">\n            {{#each mainLinks}}\n                {{mainLinks.this;<a class=\"block py-2 transition-colors mainLinkColor mainLinkColorEffect\">[text]</a>}}\n            {{/each mainLinks}}\n            {{contact;<a class=\"block py-2 rightLinkColor rounded-lg\">[text]</a>}}\n            \n            <div class=\"flex gap-4 mt-4\">\n                {{themeLight;<a class=\"flex px-6 py-1 rounded-lg mainLinkColor\"><span class=\"\">[icon]</span><span class=\"my-auto text-sm\">[text]</span></a>}}\n                {{themeDark;<a class=\"flex px-6 py-1 rounded-lg mainLinkColor\"><span >[icon]</span><span class=\"my-auto text-sm\">[text]</span></a>}}    \n                <span>{{langMenu}}</span>\n            </div>\n        </nav>\n    </div>\n</header>\n\n\n<script>\n    const btn = document.getElementById(\"mobileMenuBtn\");\n    const menu = document.getElementById(\"mobileMenu\");\n\n    btn.addEventListener(\"click\", () => {\n        if (menu.style.maxHeight && menu.style.maxHeight !== \"0px\") {\n            menu.style.maxHeight = \"0px\";\n        } else {\n            menu.style.maxHeight = menu.scrollHeight + \"px\";\n        }\n    });\n</script>\n",
       "cssCode": ".background {\n  background-color: var(--color-neutral-100);\n}\n\n.dark .background {\n  background-color: var(--color-neutral-900);\n}\n\n.logo-header{\n  font-size: 46px;\n  font-family: \"Lavishly Yours\", cursive;\n  font-weight: 400;\n  font-style: normal;\n  color: var(--color-primary-700);\n}\n\n.dark .logo-header{\n    color: var(--color-primary-300);\n}\n\n.mainLinkColor{\n    position: relative;\n    color:var(--color-primary-500); \n}\n\n.mainLinkColor:hover{\n    color:var(--color-primary-700);\n}\n\n.dark .mainLinkColor{\n    color:var(--color-primary-100);\n}\n\n.dark .mainLinkColor:hover{\n    color:var(--color-primary-300);\n}\n\n\n.rightLinkColor{\n    background-color: var(--color-primary-100);\n    color:var(--color-primary-500);\n}\n\n.rightLinkColor:hover{\n    background-color: var(--color-primary-200);\n    color:var(--color-primary-700);\n}\n\n\n.dark .rightLinkColor{\n    background-color: var(--color-primary-900);\n    color:var(--color-primary-100);\n}\n\n.dark .rightLinkColor:hover{\n    background-color: var(--color-primary-800);\n    color:var(--color-primary-50);\n}\n\n\n.mainLinkColorEffect::after {\n    content: '';\n    position: absolute;\n    bottom: -4px;\n    left: 0;\n    width: 0;\n    height: 1px;\n    background-color: var(--color-primary-700);\n    transition: width 0.3s ease;\n}\n\n.dark .mainLinkColorEffect::after {\n    background-color: var(--color-primary-300);\n}\n\n.mainLinkColorEffect:hover::after,\n.mainLinkColorEffect.active::after {\n    width: 100%;\n}\n\n\n\n\n.buttonColor {\n    background-color: var(--color-primary-500);\n    color: var(--color-secondary-100);\n    border-color: var(--color-primary-600);\n    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;\n}\n\n.buttonColor:hover {\n    background-color: var(--color-primary-600);\n    color: var(--color-secondary-50);\n    border-color: var(--color-primary-900);\n}\n\n.buttonColor:focus {\n    outline: 2px solid var(--color-primary-300);\n    box-shadow: 0 0 0 4px var(--color-primary-200);\n}\n\n\n.dark .buttonColor {\n    background-color: var(--color-primary-400);\n    border-color: var(--color-primary-600);\n    color: var(--color-secondary-100);\n}\n\n.dark .buttonColor:hover {\n    background-color: var(--color-primary-600);\n    border-color: var(--color-primary-400);\n    color: var(--color-secondary-50);\n}\n\n.dark .buttonColor:focus {\n    outline: 2px solid var(--color-primary-200);\n    outline-offset: 2px;\n    box-shadow: 0 0 0 4px var(--color-primary-100);\n}\n\n\n:host button.language-button {\n  margin-top: auto;\n  margin-bottom: auto;\n  background-color: transparent;\n  color: var(--color-primary-500);\n  display: inline-flex;\n  justify-content: center;\n  cursor: pointer;\n  border-radius: 0px;\n}\n\n :host button.language-button:hover {\n  background-color: transparent;\n  color: var(--color-primary-700);\n}\n\n:host .language-button-theme {\n  margin-top:auto;\n  margin-bottom: auto;\n  background-color: transparent;\n  border-color: var(--color-primary-500);\n}\n\n:host .dark .language-button-theme {\n  background-color: transparent;\n  color: var(--color-primary-200);\n  border-color: var(--color-primary-600);\n}\n\n:host .dark .language-button-theme:hover {\n  background-color: transparent;\n  color: var(--color-primary-50);\n  border-color: var(--color-primary-600);\n}\n\n:host .language-menu-theme {\n  background-color: var(--color-neutral-100);\n}\n\n:host .dark .language-menu-theme {\n  background-color: var(--color-neutral-900);\n}\n\n:host .language-menu-link-theme:hover {\n  background-color: var(--color-primary-300);\n  color: var(--color-primary-50);\n}\n\n:host .dark .language-menu-link-theme:hover {\n  background-color: var(--color-primary-800);\n  color: var(--color-primary-50);\n}\n\n    ",
       "id": 54,
       "objectPreview": {
@@ -3159,7 +3159,7 @@
     "63": {
       "blockName": "Form Main",
       "blockType": 14,
-      "htmlCode": "<section class=\"primaryColors secondaryColors neutralColors themeFonts background-section py-20\">\n    <div class=\"container mx-auto px-6\">\n        <div class=\"max-w-4xl mx-auto\">\n            <h2 onview-animate=\"fade-down visible\" class=\"invisible mb-6 font-light text-center\">{{title$L}}</h2>\n            <p onview-animate=\"fade-down animation-delay-020 visible\" class=\"invisible text-center mb-12 max-w-2xl mx-auto\">{{description$PL}}</p>\n            <div onview-animate=\"fade-up animation-delay-040 visible\" class=\"invisible background-card p-8 rounded-md shadow-sm\">\n                <form id=\"contact-form\"> \n                    <div id=\"form-div\">\n                        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-8 mb-8\">\n                            {{#each fields}}\n                                <div class=\"{{IF(fields.fullWidth$B==true);'col-span-2'}} field-div\"> \n                                    <label for=\"{{fields.name$L}}\" class=\"{{IF(fields.type=='checkbox');'hidden'}} block mb-2\">{{fields.name$L}}</label>\n                                    <label class=\"{{IF(fields.type!='checkbox');'hidden'}} flex items-center h-full cursor-pointer\">\n                                        <input \n                                            id=\"fieldc-{{@index}}\" \n                                            required=\"{{IF(fields.type=='checkbox' && fields.required$B==true);'true'}}\" \n                                            type=\"checkbox\" \n                                            name=\"{{IF(fields.type=='checkbox');fields.name$L}}\" \n                                            class=\"{{IF(fields.type!='checkbox');'hidden'}} sr-only peer\">\n                                        <span class=\"custom-checkbox\"></span>\n                                        <span class=\"ml-3\">{{fields.name$L}}</span>\n                                    </label>\n                                    <input \n                                        id=\"field-{{@index}}\" \n                                        type=\"{{fields.type}}\"\n                                        required=\"{{IF(fields.type!='textarea' && fields.type!='checkbox' && fields.required$B==true);'true'}}\" \n                                        name=\"{{IF(fields.type!='textarea' && fields.type!='checkbox');fields.name$L}}\" \n                                        class=\"{{IF(fields.type=='textarea' || fields.type=='checkbox');'hidden'}} contact-input\">\n                                    <textarea \n                                        id=\"fieldt-{{@index}}\" \n                                        required=\"{{IF(fields.type=='textarea' && fields.required$B==true);'true'}}\" \n                                        name=\"{{IF(fields.type=='textarea');fields.name$L}}\" \n                                        class=\"{{IF(fields.type!='textarea');'hidden'}} contact-input h-[250px]\"></textarea>\n                                </div>   \n                            {{/each fields}}\n                        </div> \n                        <div class=\"text-center\">\n                            <button type=\"submit\" class=\"px-8 py-3 rounded-md\">{{submit$L}}</button>\n                        </div>\n                    </div>\n                    <p class=\"text-center text-lg status-color p-2 rounded-lg\" id=\"status\"></p>\n                </form>\n            </div>\n        </div>\n    </div>\n</section>\n\n\n<script>\n    const workerUrl=\"{{url}}\";\n    const form = document.getElementById(\"contact-form\");\n    const formDiv = document.getElementById(\"form-div\");\n    const status = document.getElementById(\"status\");\n\n    form.addEventListener(\"submit\", async (e) => {\n        e.preventDefault();\n\n        const formData = new FormData(e.target);\n        const data = Object.fromEntries(formData.entries());\n\n        try {\n            const res = await fetch(workerUrl, {\n                method: \"POST\",\n                headers: { \"Content-Type\": \"application/json\" },\n                body: JSON.stringify(data),\n            });\n\n            const result = await res.text();\n            status.textContent = result;\n\n            // ✅ Reset form fields after successful submission\n            form.reset();\n            //hide form \n            formDiv.classList.add(\"hidden\");\n        } catch (error) {\n            status.textContent = \"Something went wrong. Please try again.\";\n            console.error(error);\n        }\n    });\n</script>",
+      "htmlCode": "<section class=\"primaryColors secondaryColors neutralColors themeFonts background-section py-20\">\n    <div class=\"container mx-auto px-6\">\n        <div class=\"max-w-4xl mx-auto\">\n            <h2 onview-animate=\"fade-down visible\" class=\"invisible mb-6 font-light text-center\">{{title$L}}</h2>\n            <p onview-animate=\"fade-down animation-delay-020 visible\" class=\"invisible text-center mb-12 max-w-2xl mx-auto\">{{description$PL}}</p>\n            <div onview-animate=\"fade-up animation-delay-040 visible\" class=\"invisible background-card p-8 rounded-md shadow-sm\">\n                <form id=\"contact-form\"> \n                    <div id=\"form-div\">\n                        <div class=\"md:grid grid-cols-1 md:grid-cols-2 gap-8 mb-8\">\n                            {{#each fields}}\n                                <div class=\"{{IF(fields.fullWidth$B==true);'md:col-span-2'}} field-div mt-4 md:mt-0\"> \n                                    <label for=\"{{fields.name$L}}\" class=\"{{IF(fields.type=='checkbox');'hidden'}} block mb-2\">{{fields.name$L}}</label>\n                                    <label class=\"{{IF(fields.type!='checkbox');'hidden'}} flex items-center h-full cursor-pointer\">\n                                        <input \n                                            id=\"fieldc-{{@index}}\" \n                                            required=\"{{IF(fields.type=='checkbox' && fields.required$B==true);'true'}}\" \n                                            type=\"checkbox\" \n                                            name=\"{{IF(fields.type=='checkbox');fields.name$L}}\" \n                                            class=\"{{IF(fields.type!='checkbox');'hidden'}} sr-only peer\">\n                                        <span class=\"custom-checkbox\"></span>\n                                        <span class=\"ml-3\">{{fields.name$L}}</span>\n                                    </label>\n                                    <input \n                                        id=\"field-{{@index}}\" \n                                        type=\"{{fields.type}}\"\n                                        required=\"{{IF(fields.type!='textarea' && fields.type!='checkbox' && fields.required$B==true);'true'}}\" \n                                        name=\"{{IF(fields.type!='textarea' && fields.type!='checkbox');fields.name$L}}\" \n                                        class=\"{{IF(fields.type=='textarea' || fields.type=='checkbox');'hidden'}} contact-input\">\n                                    <textarea \n                                        id=\"fieldt-{{@index}}\" \n                                        required=\"{{IF(fields.type=='textarea' && fields.required$B==true);'true'}}\" \n                                        name=\"{{IF(fields.type=='textarea');fields.name$L}}\" \n                                        class=\"{{IF(fields.type!='textarea');'hidden'}} contact-input h-[250px]\"></textarea>\n                                </div>   \n                            {{/each fields}}\n                        </div> \n                        <div class=\"text-center\">\n                            <button type=\"submit\" class=\"px-8 py-3 rounded-md\">{{submit$L}}</button>\n                        </div>\n                    </div>\n                    <p class=\"text-center text-lg status-color p-2 rounded-lg\" id=\"status\"></p>\n                </form>\n            </div>\n        </div>\n    </div>\n</section>\n\n\n<script>\n    const workerUrl=\"{{url}}\";\n    const form = document.getElementById(\"contact-form\");\n    const formDiv = document.getElementById(\"form-div\");\n    const status = document.getElementById(\"status\");\n\n    form.addEventListener(\"submit\", async (e) => {\n        e.preventDefault();\n\n        const formData = new FormData(e.target);\n        const data = Object.fromEntries(formData.entries());\n\n        try {\n            const res = await fetch(workerUrl, {\n                method: \"POST\",\n                headers: { \"Content-Type\": \"application/json\" },\n                body: JSON.stringify(data),\n            });\n\n            const result = await res.text();\n            status.textContent = result;\n\n            // ✅ Reset form fields after successful submission\n            form.reset();\n            //hide form \n            formDiv.classList.add(\"hidden\");\n        } catch (error) {\n            status.textContent = \"Something went wrong. Please try again.\";\n            console.error(error);\n        }\n    });\n</script>",
       "cssCode": ".status-color{\n    color: var(--color-primary-700);\n}\n\n.dark .status-color{\n    color: var(--color-primary-300);\n}\n\n\n.background-section {\n    background-color: #F2F4EF;\n}\n.dark .background-section {\n    background-color: var(--color-neutral-950);\n}\n.contact-input {\n    width: 100%;\n    /*padding: 0.75rem 1rem;*/\n    padding: 0.5rem; /* ensures text starts at top */\n    border-radius: 0.375rem;\n    border: 1px solid var(--color-neutral-300);\n    background-color: var(--color-neutral-50);\n    color: var(--color-neutral-800);\n    transition: border-color 0.2s, box-shadow 0.2s;\n}\n.contact-input:focus {\n    outline: none;\n    border-color: var(--color-primary-500);\n    box-shadow: 0 0 0 2px var(--color-primary-200);\n}\n.dark .contact-input {\n    background-color: var(--color-neutral-700);\n    border-color: var(--color-neutral-600); \n    color: var(--color-neutral-100);\n}\n.dark .contact-input:focus {\n    border-color: var(--color-primary-400);\n    box-shadow: 0 0 0 2px var(--color-primary-900);\n}\n.custom-checkbox {\n    display: inline-block;\n    width: 1.25rem;\n    height: 1.25rem;\n    border: 2px solid var(--color-neutral-400);\n    border-radius: 0.25rem;\n    transition: background-color 0.2s;\n    flex-shrink: 0;\n}\n.dark .custom-checkbox {\n    border-color: var(--color-neutral-500);\n}\ninput[type=\"checkbox\"]:checked + .custom-checkbox {\n    background-color: var(--color-primary-500);\n    border-color: var(--color-primary-500);\n    background-image: url(\"data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e\");\n    background-size: 100% 100%;\n    background-position: center;\n    background-repeat: no-repeat;\n}\n\ninput[type=\"textarea\"] {\n    height: 250px;\n    grid-column: span 2 / span 2;\n    box-sizing: border-box;\n    /* optional for consistent font and line-height */\n    font-family: inherit;\n    line-height: 1.2;\n}   \n\n.field-div:has(input[type=\"textarea\"]) {\n  /* Tailwind equivalent */\n  /* If using plain CSS */\n  grid-column: span 2;\n}\n\n",
       "id": 63,
       "objectPreview": {
@@ -3430,6 +3430,202 @@
         "_$preventResendToIframe": true
       },
       "dataStructureId": "16"
+    },
+    "71": {
+      "blockName": "Header Main2",
+      "blockType": 1,
+      "htmlCode": "<header class=\"primaryColors secondaryColors neutralColors background\">\n    <div class=\"container mx-auto px-6 py-1.5 flex justify-between items-center\">\n        \n        <div class=\"flex text-3xl logoText my-auto mx-4\">\n            <span class=\"logo-header\">{{logoText}}</span>\n        </div>\n        \n        <nav class=\"hidden lg:flex items-center gap-8\">\n            {{#each mainLinks}}\n                {{mainLinks.this;<a class=\"transition-colors mainLinkColor mainLinkColorEffect\">[text]</a>}}\n            {{/each mainLinks}}\n            {{contact;<a class=\"contactLinkColor px-6 py-2.5 mr-8 rounded-lg w-full\">[text]</a>}}\n        </nav>\n\n        \n        <div class=\"hidden lg:flex my-auto\">\n            <span class=\"my-auto\">{{themeSwitch}}</span>\n            <span class=\"my-auto\">{{langMenu}}</span>\n        </div>\n\n        \n        <button id=\"mobileMenuBtn\" class=\"lg:hidden ml-4 rounded-lg p-1\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-8 h-8\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n                <path fill-rule=\"evenodd\" d=\"M3 6h18v2H3V6Zm0 5h18v2H3v-2Zm0 5h18v2H3v-2Z\"/>\n            </svg>\n        </button>\n    </div>\n\n    \n    <div id=\"mobileMenu\" class=\"lg:hidden max-h-0 overflow-hidden transition-all duration-300 background\">\n        <nav class=\"px-6 pb-4 flex flex-col gap-4\">\n            {{#each mainLinks}}\n                {{mainLinks.this;<a class=\"block py-2 transition-colors mainLinkColor mainLinkColorEffect\">[text]</a>}}\n            {{/each mainLinks}}\n            {{contact;<a class=\"block py-2 rightLinkColor rounded-lg\">[text]</a>}}\n            \n            <div class=\"flex gap-4 mt-4\">\n                <span>{{themeSwitch}}</span>\n                <span>{{langMenu}}</span>\n            </div>\n        </nav>\n    </div>\n</header>\n\n\n<script>\n    const btn = document.getElementById(\"mobileMenuBtn\");\n    const menu = document.getElementById(\"mobileMenu\");\n\n    btn.addEventListener(\"click\", () => {\n        if (menu.style.maxHeight && menu.style.maxHeight !== \"0px\") {\n            menu.style.maxHeight = \"0px\";\n        } else {\n            menu.style.maxHeight = menu.scrollHeight + \"px\";\n        }\n    });\n</script>\n",
+      "cssCode": ".background {\n  background-color: var(--color-neutral-100);\n}\n\n.dark .background {\n  background-color: var(--color-neutral-900);\n}\n\n.logoText{\n    font-family: 'Montserrat', sans-serif;\n    color: var(--color-primary-700);\n}\n\n.dark .logoText{\n    color: var(--color-primary-300);\n}\n\n.mainLinkColor{\n    position: relative;\n    color:var(--color-primary-500); \n}\n\n.mainLinkColor:hover{\n    color:var(--color-primary-600);\n}\n\n.dark .mainLinkColor{\n    color:var(--color-primary-100);\n}\n\n.dark .mainLinkColor:hover{\n    color:var(--color-primary-300);\n}\n\nsvg{\n  fill: currentColor;\n}\n\n\n.mainLinkColorEffect::after {\n    content: '';\n    position: absolute;\n    bottom: -4px;\n    left: 0;\n    width: 0;\n    height: 1px;\n    background-color: var(--color-primary-700);\n    transition: width 0.3s ease;\n}\n\n.dark .mainLinkColorEffect::after {\n    background-color: var(--color-primary-300);\n}\n\n.mainLinkColorEffect:hover::after,\n.mainLinkColorEffect.active::after {\n    width: 100%;\n}\n\n:host a.contactLinkColor{\n  display: inline-block; \n  padding: 10px 10px;    \n  line-height: 1.4;     \n  text-align: center;\n  background-color: var(--color-primary-600);\n  color:var(--color-neutral-100);\n}\n\n:host a.contactLinkColor:hover {\n  background-color: var(--color-primary-700);\n  color:var(--color-neutral-50);\n}\n\n\n.dark .contactLinkColor{\n  background-color: var(--color-primary-400);\n  color:var(--color-neutral-50);\n}\n\n\n\n:host button.theme-switcher {\n  margin-top: auto;\n  margin-bottom: auto;\n  background-color: transparent;\n  display: inline-flex;\n  justify-content: center;\n  cursor: pointer;\n  border-radius: 0px;\n  color:var(--color-primary-600);\n}\n\n:host button.theme-switcher:hover {\n  background-color: transparent;\n  color:var(--color-primary-700);\n}\n\n:host .dark .theme-switcher {\n  color:var(--color-primary-100);\n}\n\n:host .dark .theme-switcher:hover {\n  color:var(--color-primary-300);\n}\n\n\n:host button.language-button {\n  margin-top: auto;\n  margin-bottom: auto;\n  background-color: transparent;\n  color: var(--color-primary-600);\n  display: inline-flex;\n  justify-content: center;\n  cursor: pointer;\n  border-radius: 0px;\n}\n\n :host button.language-button:hover {\n  background-color: transparent;\n  color: var(--color-primary-700);\n}\n\n:host .language-button-theme {\n  margin-top:auto;\n  margin-bottom: auto;\n  background-color: transparent;\n  border-color: var(--color-primary-500);\n}\n\n:host .dark .language-button-theme {\n  background-color: transparent;\n  color: var(--color-primary-100);\n  border-color: var(--color-primary-600);\n}\n\n:host .dark .language-button-theme:hover {\n  background-color: transparent;\n  color: var(--color-primary-300);\n  border-color: var(--color-primary-600);\n}\n\n:host .language-menu-theme {\n  background-color: var(--color-neutral-100);\n}\n\n:host .dark .language-menu-theme {\n  background-color: var(--color-neutral-900);\n}\n\n:host .language-menu-link-theme:hover {\n  background-color: var(--color-primary-600);\n  color: var(--color-primary-50);\n}\n\n:host .dark .language-menu-link-theme:hover {\n  background-color: var(--color-primary-600);\n  color: var(--color-primary-50);\n}\n\n    ",
+      "dataStructureId": "15",
+      "id": 71,
+      "objectPreview": {
+        "id": -1,
+        "slotName": "default",
+        "component": {
+          "anchorName": "section",
+          "logoImage": {
+            "imagePath": "",
+            "altText$L": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          "logoText": "barbershop",
+          "mainLinks": [
+            {
+              "text$L": [
+                "Home",
+                "Home",
+                "Home",
+                "Home",
+                "Accueil"
+              ],
+              "description$L": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "typeL": "internal",
+              "externalLink": "",
+              "page": 0,
+              "section": "",
+              "langCode": "en",
+              "themeSwitchCustom": "dark",
+              "icon": {
+                "id": 1,
+                "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
+                "themeId": 1
+              },
+              "themeId": 0,
+              "enableOnlyAfterCookieConsent": false,
+              "id": 0,
+              "blockEntityId": 72,
+              "generalSlotName": "mainLinks.this"
+            },
+            {
+              "text$L": [
+                "Services",
+                "Servizi",
+                "Dienstleistungen",
+                "Servicios",
+                "Services"
+              ],
+              "description$L": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "typeL": "internal",
+              "externalLink": "",
+              "page": 0,
+              "section": "",
+              "langCode": "en",
+              "themeSwitchCustom": "dark",
+              "icon": {
+                "id": 1,
+                "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
+                "themeId": 1
+              },
+              "themeId": 0,
+              "enableOnlyAfterCookieConsent": false,
+              "id": 0,
+              "blockEntityId": 72,
+              "generalSlotName": "mainLinks.this"
+            },
+            {
+              "text$L": [
+                "Gallery",
+                "Galleria",
+                "Galerie",
+                "Galería",
+                "Galerie"
+              ],
+              "description$L": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "typeL": "internal",
+              "externalLink": "",
+              "page": 0,
+              "section": "",
+              "langCode": "en",
+              "themeSwitchCustom": "dark",
+              "icon": {
+                "id": 1,
+                "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
+                "themeId": 1
+              },
+              "themeId": 0,
+              "enableOnlyAfterCookieConsent": false,
+              "id": 0,
+              "blockEntityId": 72,
+              "generalSlotName": "mainLinks.this"
+            },
+            {
+              "text$L": [
+                "About Us",
+                "Chi siamo",
+                "Über uns",
+                "Sobre nosotros",
+                "À propos de nous"
+              ],
+              "description$L": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "typeL": "internal",
+              "externalLink": "",
+              "page": 0,
+              "section": "",
+              "langCode": "en",
+              "themeSwitchCustom": "dark",
+              "icon": {
+                "id": 1,
+                "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
+                "themeId": 1
+              },
+              "themeId": 0,
+              "enableOnlyAfterCookieConsent": false,
+              "id": 0,
+              "blockEntityId": 72,
+              "generalSlotName": "mainLinks.this"
+            }
+          ],
+          "contact": {
+            "text$L": [
+              "Book now",
+              "Prenota ora",
+              "Jetzt buchen",
+              "Reservar ahora",
+              "Réserver maintenant"
+            ],
+            "description$L": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "typeL": "internal",
+            "externalLink": "",
+            "page": 0,
+            "section": "",
+            "langCode": "en",
+            "themeSwitchCustom": "dark",
+            "icon": {
+              "id": 1,
+              "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
+              "themeId": 1
+            },
+            "themeId": 0,
+            "enableOnlyAfterCookieConsent": false,
+            "id": 0,
+            "blockEntityId": 72,
+            "generalSlotName": "contact"
+          },
+          "themeId": 1,
+          "lazyLoading": false,
+          "enableOnlyAfterCookieConsent": false,
+          "delayAnimation": 0,
+          "dataStructureId": 15,
+          "component_type": "custom_section_block",
+          "blockEntityId": 71
+        },
+        "_$preventResendToIframe": true
+      }
     }
   },
   "customBlocksIds": [
@@ -3455,7 +3651,8 @@
     62,
     63,
     69,
-    70
+    70,
+    71
   ],
   "buttonThemesEntityMap": {
     "0": {
@@ -4707,7 +4904,7 @@
           "slotName": "default",
           "component": {
             "anchorName": "contact",
-            "url": "https://",
+            "url": "https://sandrasammali.com/form-submit",
             "title$L": [
               "Begin Your Story",
               "Inizia la Tua Storia",
