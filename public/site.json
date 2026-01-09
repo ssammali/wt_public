@@ -1,6 +1,6 @@
 {
   "storeName": "website_live",
-  "lastUpdate": "2026-01-09T14:06:58.645Z",
+  "lastUpdate": "2026-01-09T14:11:58.994Z",
   "siteName": "Sandra Sammali",
   "enableCA": false,
   "siteDomain": "https://sandrasammali.com",
@@ -4087,7 +4087,7 @@
           "slotName": "default",
           "component": {
             "title$L": [
-              "Professional Photography Portfolio!",
+              "Professional Photography Portfolio",
               "Portafoglio fotografico professionale",
               "Professionelles Fotografie-Portfolio",
               "Portafolio de fotografía profesional",
