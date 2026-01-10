@@ -1,6 +1,6 @@
 {
   "storeName": "website_live",
-  "lastUpdate": "2026-01-09T14:11:58.994Z",
+  "lastUpdate": "2026-01-10T15:00:31.753Z",
   "siteName": "Sandra Sammali",
   "enableCA": false,
   "siteDomain": "https://sandrasammali.com",
@@ -15,7 +15,7 @@
   "globalCSSEntityMap": {
     "1": {
       "fileName": "Default",
-      "cssCode": "@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sixtyfour+Convergence&family=Sigmar&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');\n@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Niconne&family=Sirivennela&display=swap');\n\n/* --- Available Fonts & Fallbacks --- */\n/* 'Pacifico', cursive; */\n/* 'Sixtyfour Convergence', system-ui; */\n/* 'Sigmar', sans-serif; */\n/* 'Kanit', sans-serif; */\n/* 'Cormorant Garamond', serif; */\n/* 'Montserrat', sans-serif; */\n\n.fontwt-pacifico{\n  font-family: 'Pacifico', cursive;\n}\n\n.fontwt-Sixtyfour-Convergence{\n  font-family: 'Sixtyfour Convergence', system-ui;\n}\n\n.fontwt-Sigmar{\n  font-family: 'Sigmar', sans-serif;\n}\n\n.fontwt-Kanit{\n  font-family: 'Kanit', sans-serif;\n}\n\n.fontwt-Cormorant-Garamond{\n  font-family: 'Cormorant Garamond', serif;\n}\n\n.fontwt-Montserrat{\n  font-family: 'Montserrat', san-serif;\n}\n\n.logo-header{\n  font-size: clamp(38px, 6vw, 42px);\n  font-family: \"Lavishly Yours\", cursive;\n  font-weight: 400;\n  font-style: normal;\n}\n\n.logo-footer{\n  font-size: clamp(30px, 6vw, 40px);\n  font-family: \"Lavishly Yours\", cursive;\n  font-weight: 400;\n  font-style: normal;\n}\n\nh1, h2 {\n  font-family: \"Niconne\", cursive;\n  /* font-family: 'Cormorant Garamond', serif; */\n}\n\nh3, h4, h5, h6 {\n  /* font-family: \"Niconne\", cursive; */\n  font-family: 'Cormorant Garamond', serif;\n}\n\n:host h1 {\n  font-size: clamp(38px, 6vw, 60px);\n}\n:host h2 {\n  font-size: clamp(24px, 4.5vw, 44px);\n}\n:host h3 {\n  font-size: clamp(20px, 3.5vw, 28px);\n}\n:host h4,\n:host h5,\n:host h6 {\n  font-size: clamp(18px, 3vw, 24px);\n}\n\n/* :host h1 {\n  font-weight: 600;\n  font-size: 60px;\n  letter-spacing: 0.02em;\n}\n\n:host h2 {\n  font-weight: 500;\n  font-size: 40px;\n  letter-spacing: 0.015em;\n}\n\n:host h3 {\n  font-weight: 400;\n  font-size: 30px;\n  letter-spacing: 0.01em;\n}\n\n:host h4,\n:host h5,\n:host h6 {\n  font-weight: 400;\n  font-size: 25px;\n  letter-spacing: 0.005em;\n} */\n\n\n\np, label {\n  font-family: 'Cormorant Garamond', sans-serif;\n  /* font-family: \"Lavishly Yours\", cursive; */\n  /* font-family: \"Niconne\", cursive; */\n  font-size: clamp(18px, 3vw, 22px);\n  font-weight: 100;\n  font-style: normal;\n\n\n}\n\n:host a {\n  font-size: 20px;\n  font-family: 'Cormorant Garamond', sans-serif;\n}\n\n.language-menu-text{\n  font-size: 20px;\n}\n\n:host button {\n  font-size: 20px;\n  font-family: 'Cormorant Garamond', sans-serif;\n}",
+      "cssCode": "@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sixtyfour+Convergence&family=Sigmar&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');\n@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Niconne&family=Sirivennela&display=swap');\n@import url('https://fonts.googleapis.com/css2?family=Meie+Script&display=swap');\n\n/* --- Available Fonts & Fallbacks --- */\n/* 'Pacifico', cursive; */\n/* 'Sixtyfour Convergence', system-ui; */\n/* 'Sigmar', sans-serif; */\n/* 'Kanit', sans-serif; */\n/* 'Cormorant Garamond', serif; */\n/* 'Montserrat', sans-serif; */\n/* \"Meie Script\", cursive; */\n/* 'Sirivennela', cursive; */\n\n.fontwt-pacifico{\n  font-family: 'Pacifico', cursive;\n}\n\n.fontwt-Sixtyfour-Convergence{\n  font-family: 'Sixtyfour Convergence', system-ui;\n}\n\n.fontwt-Sigmar{\n  font-family: 'Sigmar', sans-serif;\n}\n\n.fontwt-Kanit{\n  font-family: 'Kanit', sans-serif;\n}\n\n.fontwt-Cormorant-Garamond{\n  font-family: 'Cormorant Garamond', serif;\n}\n\n.fontwt-Montserrat{\n  font-family: 'Montserrat', san-serif;\n}\n\n.logo-header{\n  font-size: clamp(38px, 6vw, 42px);\n  font-family: \"Lavishly Yours\", cursive;\n  font-weight: 400;\n  font-style: normal;\n}\n\n.logo-footer{\n  font-size: clamp(30px, 6vw, 40px);\n  font-family: \"Lavishly Yours\", cursive;\n  font-weight: 400;\n  font-style: normal;\n}\n\nh1, h2 {\n  font-family: \"Sirivennela\", cursive;\n  /* font-family: 'Cormorant Garamond', serif; */\n}\n\nh3, h4, h5, h6 {\n  /* font-family: \"Niconne\", cursive; */\n  font-family: \"Sirivennela\", cursive;\n}\n\n:host h1 {\n  font-size: clamp(38px, 6vw, 60px);\n}\n:host h2 {\n  font-size: clamp(24px, 4.5vw, 44px);\n}\n:host h3 {\n  font-size: clamp(20px, 3.5vw, 28px);\n}\n:host h4,\n:host h5,\n:host h6 {\n  font-size: clamp(18px, 3vw, 24px);\n}\n\n/* :host h1 {\n  font-weight: 600;\n  font-size: 60px;\n  letter-spacing: 0.02em;\n}\n\n:host h2 {\n  font-weight: 500;\n  font-size: 40px;\n  letter-spacing: 0.015em;\n}\n\n:host h3 {\n  font-weight: 400;\n  font-size: 30px;\n  letter-spacing: 0.01em;\n}\n\n:host h4,\n:host h5,\n:host h6 {\n  font-weight: 400;\n  font-size: 25px;\n  letter-spacing: 0.005em;\n} */\n\n\np, label {\n  font-family: 'Cormorant Garamond', sans-serif;\n  /* font-family: \"Lavishly Yours\", cursive; */\n  /* font-family: \"Niconne\", cursive; */\n  font-size: clamp(18px, 3vw, 22px);\n  font-weight: 100;\n  font-style: normal;\n\n\n}\n\n:host a {\n  font-size: 20px;\n  font-family: 'Cormorant Garamond', sans-serif;\n}\n\n.language-menu-text{\n  font-size: 20px;\n}\n\n:host button {\n  font-size: 20px;\n  font-family: 'Cormorant Garamond', sans-serif;\n}",
       "id": 1
     },
     "7": {
@@ -4195,27 +4195,26 @@
           "id": 7,
           "slotName": "default",
           "component": {
-            "anchorName": "",
             "title$L": [
-              "A Visual Legacy",
-              "Un'eredità Visiva",
-              "Ein Visuelles Erbe",
-              "Un Legado Visual",
-              "Un Héritage Visuel"
+              "The Importance of Food Photography for Restaurants",
+              "L'importanza della fotografia gastronomica per i ristoranti",
+              "Die Bedeutung der Food-Fotografie für Restaurants",
+              "La importancia de la fotografía de alimentos para restaurantes",
+              "L'importance de la photographie culinaire pour les restaurants"
             ],
             "subtitle$L": [
-              "",
-              "",
-              "",
-              "",
-              ""
+              "Capturing Culinary Excellence",
+              "Catturare l'eccellenza culinaria",
+              "Kulinarische Exzellenz festhalten",
+              "Capturando la excelencia culinaria",
+              "Capturer l'excellence culinaire"
             ],
             "description$PL": [
-              "I capture the authentic emotions, delicate light, and timeless moments of your New York wedding day. My approach blends editorial sophistication with fine-art sensibility, creating images that transcend mere documentation to become cherished heirlooms.",
-              "Catturo le emozioni autentiche, la luce delicata e i momenti senza tempo del tuo giorno di nozze a New York. Il mio approccio unisce la sofisticazione editoriale con una sensibilità artistica, creando immagini che trascendono la semplice documentazione per diventare preziosi cimeli.",
-              "Ich fange die authentischen Emotionen, das zarte Licht und die zeitlosen Momente Ihres Hochzeitstages in New York ein. Mein Ansatz verbindet redaktionelle Raffinesse mit künstlerischem Feingefühl und schafft Bilder, die über reine Dokumentation hinausgehen und zu geschätzten Erbstücken werden.",
-              "Capturo las emociones auténticas, la luz delicada y los momentos atemporales del día de tu boda en Nueva York. Mi enfoque combina sofisticación editorial con sensibilidad artística, creando imágenes que trascienden la mera documentación para convertirse en preciados recuerdos.",
-              "Je capture les émotions authentiques, la lumière délicate et les moments intemporels de votre journée de mariage à New York. Mon approche allie sophistication éditoriale et sensibilité artistique, créant des images qui dépassent la simple documentation pour devenir des héritages précieux."
+              "In today's visually-driven world, the adage \"we eat with our eyes first\" has never been truer, especially for the restaurant industry. High-quality food photography is no longer a luxury but a fundamental necessity for any eatery looking to stand out in a crowded market. Professional food photography goes beyond merely showcasing a dish; it tells a story, evokes emotions, and most importantly, entices potential diners to experience your culinary creations firsthand.\n\nImagine scrolling through social media or a restaurant's website. What immediately grabs your attention? More often than not, it's a stunning, well-lit image of a delectable dish. This visual appeal can be the deciding factor for a customer choosing between two restaurants. A beautifully composed photograph can highlight the freshness of ingredients, the intricate plating, and the overall artistry that goes into each meal. It communicates the chef's passion and the restaurant's commitment to quality before a single fork touches a plate.\n\nFurthermore, exceptional food photography serves as a powerful marketing tool across various platforms. From Instagram and Facebook to online delivery apps and your own website, mouth-watering images are shared, liked, and saved, significantly increasing your restaurant's visibility and reach. It transforms passive browsers into active customers, driving reservations and boosting takeout orders. In an era where digital presence is paramount, professional photographs provide the essential visual content needed to capture attention and create a lasting impression.\n\nBeyond attracting new customers, great food photography also enhances existing diners' experiences. When customers see dishes online that perfectly match or even exceed the visual appeal of what they receive, it builds trust and reinforces their satisfaction. It creates a consistent brand image and elevates the perceived value of your establishment. Therefore, investing in professional food photography is not just an expense; it's a strategic investment in your restaurant's brand, its marketing efforts, and ultimately, its long-term success. It's about translating the deliciousness of your food into an irresistible visual language.",
+              "Nel mondo odierno, guidato dalle immagini, l'adagio \"mangiamo prima con gli occhi\" non è mai stato più vero, specialmente per l'industria della ristorazione. La fotografia gastronomica di alta qualità non è più un lusso, ma una necessità fondamentale per qualsiasi ristorante che voglia distinguersi in un mercato affollato. La fotografia professionale di cibo va oltre la semplice esposizione di un piatto; racconta una storia, evoca emozioni e, soprattutto, invoglia i potenziali commensali a sperimentare le vostre creazioni culinarie in prima persona.\n\nImmaginate di scorrere i social media o il sito web di un ristorante. Cosa cattura immediatamente la vostra attenzione? Molto spesso, è un'immagine splendida e ben illuminata di un piatto delizioso. Questo appeal visivo può essere il fattore decisivo per un cliente che sceglie tra due ristoranti. Una fotografia ben composta può evidenziare la freschezza degli ingredienti, l'impiattamento intricato e l'arte complessiva che va in ogni pasto. Comunica la passione dello chef e l'impegno del ristorante per la qualità prima che una singola forchetta tocchi un piatto.\n\nInoltre, l'eccezionale fotografia gastronomica funge da potente strumento di marketing su varie piattaforme. Da Instagram e Facebook alle app di consegna online e al vostro sito web, le immagini appetitose vengono condivise, apprezzate e salvate, aumentando significativamente la visibilità e la portata del vostro ristorante. Trasforma i navigatori passivi in clienti attivi, stimolando le prenotazioni e aumentando gli ordini da asporto. In un'era in cui la presenza digitale è fondamentale, le fotografie professionali forniscono il contenuto visivo essenziale necessario per catturare l'attenzione e creare un'impressione duratura.\n\nOltre ad attirare nuovi clienti, una grande fotografia gastronomica migliora anche l'esperienza dei commensali esistenti. Quando i clienti vedono online piatti che corrispondono perfettamente o addirittura superano l'appeal visivo di ciò che ricevono, si crea fiducia e si rafforza la loro soddisfazione. Crea un'immagine di marca coerente ed eleva il valore percepito del vostro locale. Pertanto, investire nella fotografia alimentare professionale non è solo una spesa; è un investimento strategico nel marchio del vostro ristorante, nei suoi sforzi di marketing e, in ultima analisi, nel suo successo a lungo termine. Si tratta di tradurre la prelibatezza del vostro cibo in un linguaggio visivo irresistibile.",
+              "In der heutigen visuell geprägten Welt war der Spruch „Wir essen zuerst mit den Augen“ nie zutreffender, insbesondere für die Restaurantbranche. Hochwertige Food-Fotografie ist kein Luxus mehr, sondern eine grundlegende Notwendigkeit für jedes Restaurant, das sich in einem überfüllten Markt hervorheben möchte. Professionelle Food-Fotografie geht über die bloße Präsentation eines Gerichts hinaus; sie erzählt eine Geschichte, weckt Emotionen und verführt vor allem potenzielle Gäste dazu, Ihre kulinarischen Kreationen selbst zu erleben.\n\nStellen Sie sich vor, Sie scrollen durch soziale Medien oder die Website eines Restaurants. Was erregt sofort Ihre Aufmerksamkeit? Meistens ist es ein atemberaubendes, gut beleuchtetes Bild eines köstlichen Gerichts. Dieser visuelle Reiz kann der entscheidende Faktor sein, wenn ein Kunde zwischen zwei Restaurants wählt. Eine wunderschön komponierte Fotografie kann die Frische der Zutaten, die kunstvolle Anrichtung und die allgemeine Handwerkskunst, die in jedem Gericht steckt, hervorheben. Sie vermittelt die Leidenschaft des Kochs und das Engagement des Restaurants für Qualität, bevor eine einzige Gabel einen Teller berührt.\n\nDarüber hinaus dient außergewöhnliche Food-Fotografie als leistungsstarkes Marketinginstrument auf verschiedenen Plattformen. Von Instagram und Facebook bis hin zu Online-Liefer-Apps und Ihrer eigenen Website werden appetitliche Bilder geteilt, geliked und gespeichert, wodurch die Sichtbarkeit und Reichweite Ihres Restaurants erheblich gesteigert wird. Sie verwandelt passive Browser in aktive Kunden, fördert Reservierungen und steigert Bestellungen zum Mitnehmen. In einer Ära, in der die digitale Präsenz von größter Bedeutung ist, liefern professionelle Fotos den wesentlichen visuellen Inhalt, der benötigt wird, um Aufmerksamkeit zu erregen und einen bleibenden Eindruck zu hinterlassen.\n\nNeben der Gewinnung neuer Kunden verbessert großartige Food-Fotografie auch das Erlebnis bestehender Gäste. Wenn Kunden online Gerichte sehen, die dem visuellen Reiz dessen, was sie erhalten, perfekt entsprechen oder diesen sogar übertreffen, schafft dies Vertrauen und verstärkt ihre Zufriedenheit. Es schafft ein konsistentes Markenimage und erhöht den wahrgenommenen Wert Ihres Lokals. Daher ist die Investition in professionelle Food-Fotografie nicht nur eine Ausgabe; es ist eine strategische Investition in die Marke Ihres Restaurants, seine Marketingbemühungen und letztendlich in seinen langfristigen Erfolg. Es geht darum, die Köstlichkeit Ihres Essens in eine unwiderstehliche visuelle Sprache zu übersetzen.",
+              "En el mundo actual, impulsado por lo visual, el dicho \"comemos primero con los ojos\" nunca ha sido tan cierto, especialmente para la industria de los restaurantes. La fotografía de alimentos de alta calidad ya no es un lujo, sino una necesidad fundamental para cualquier restaurante que busque destacarse en un mercado abarrotado. La fotografía profesional de alimentos va más allá de simplemente mostrar un plato; cuenta una historia, evoca emociones y, lo más importante, tienta a los posibles comensales a experimentar sus creaciones culinarias de primera mano.\n\nImagine navegar por las redes sociales o el sitio web de un restaurante. ¿Qué llama inmediatamente su atención? Muy a menudo, es una imagen impresionante y bien iluminada de un plato delicioso. Este atractivo visual puede ser el factor decisivo para un cliente que elige entre dos restaurantes. Una fotografía bellamente compuesta puede resaltar la frescura de los ingredientes, el intrincado emplatado y el arte general que se pone en cada comida. Comunica la pasión del chef y el compromiso del restaurante con la calidad antes de que un solo tenedor toque un plato.\n\nAdemás, la fotografía de alimentos excepcional sirve como una poderosa herramienta de marketing en varias plataformas. Desde Instagram y Facebook hasta aplicaciones de entrega en línea y su propio sitio web, las imágenes apetitosas se comparten, se les da \"me gusta\" y se guardan, lo que aumenta significativamente la visibilidad y el alcance de su restaurante. Transforma a los navegantes pasivos en clientes activos, impulsando las reservas y aumentando los pedidos para llevar. En una era donde la presencia digital es primordial, las fotografías profesionales proporcionan el contenido visual esencial necesario para captar la atención y crear una impresión duradera.\n\nAdemás de atraer nuevos clientes, una excelente fotografía de alimentos también mejora las experiencias de los comensales existentes. Cuando los clientes ven en línea platos que coinciden perfectamente o incluso superan el atractivo visual de lo que reciben, se genera confianza y se refuerza su satisfacción. Crea una imagen de marca consistente y eleva el valor percibido de su establecimiento. Por lo tanto, invertir en fotografía profesional de alimentos no es solo un gasto; es una inversión estratégica en la marca de su restaurante, sus esfuerzos de marketing y, en última instancia, su éxito a largo plazo. Se trata de traducir la exquisitez de su comida en un lenguaje visual irresistible.",
+              "Dans le monde actuel, axé sur le visuel, l'adage « nous mangeons d'abord avec les yeux » n'a jamais été aussi vrai, surtout pour l'industrie de la restauration. La photographie culinaire de haute qualité n'est plus un luxe mais une nécessité fondamentale pour tout restaurant cherchant à se démarquer sur un marché saturé. La photographie culinaire professionnelle va au-delà de la simple présentation d'un plat ; elle raconte une histoire, évoque des émotions et, surtout, incite les convives potentiels à découvrir vos créations culinaires par eux-mêmes.\n\nImaginez que vous naviguez sur les réseaux sociaux ou le site web d'un restaurant. Qu'est-ce qui retient immédiatement votre attention ? Le plus souvent, c'est une image époustouflante et bien éclairée d'un plat délicieux. Cet attrait visuel peut être le facteur décisif pour un client choisissant entre deux restaurants. Une photographie magnifiquement composée peut mettre en évidence la fraîcheur des ingrédients, le dressage complexe et l'art général qui accompagne chaque repas. Elle communique la passion du chef et l'engagement du restaurant envers la qualité avant qu'une seule fourchette ne touche une assiette.\n\nDe plus, une photographie culinaire exceptionnelle constitue un puissant outil marketing sur diverses plateformes. D'Instagram et Facebook aux applications de livraison en ligne et à votre propre site web, des images alléchantes sont partagées, aimées et enregistrées, augmentant considérablement la visibilité et la portée de votre restaurant. Elle transforme les navigateurs passifs en clients actifs, stimulant les réservations et augmentant les commandes à emporter. À une époque où la présence numérique est primordiale, les photographies professionnelles fournissent le contenu visuel essentiel nécessaire pour capter l'attention et créer une impression durable.\n\nAu-delà d'attirer de nouveaux clients, une excellente photographie culinaire améliore également l'expérience des convives existants. Lorsque les clients voient en ligne des plats qui correspondent parfaitement ou même dépassent l'attrait visuel de ce qu'ils reçoivent, cela renforce la confiance et leur satisfaction. Cela crée une image de marque cohérente et élève la valeur perçue de votre établissement. Par conséquent, investir dans la photographie culinaire professionnelle n'est pas seulement une dépense ; c'est un investissement stratégique dans la marque de votre restaurant, ses efforts de marketing et, finalement, son succès à long terme. Il s'agit de traduire le délice de votre cuisine en un langage visuel irrésistible."
             ],
             "image": {
               "imagePath": "",
@@ -4228,12 +4227,13 @@
               ]
             },
             "themeId": "0",
-            "lazyLoading": false,
-            "enableOnlyAfterCookieConsent": false,
-            "delayAnimation": 0,
             "blockEntityId": 56,
             "component_type": "custom_section_block",
-            "dataStructureId": 16
+            "dataStructureId": 16,
+            "anchorName": "",
+            "lazyLoading": false,
+            "enableOnlyAfterCookieConsent": false,
+            "delayAnimation": 0
           }
         },
         {
@@ -4265,7 +4265,7 @@
             "images": [
               {
                 "image": {
-                  "imagePath": "https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=800&w=600",
+                  "imagePath": "https://images.pexels.com/photos/1488312/pexels-photo-1488312.jpeg",
                   "altText$L": [
                     "",
                     "",
@@ -4436,6 +4436,64 @@
                   "",
                   ""
                 ]
+              },
+              {
+                "image": {
+                  "imagePath": "https://images.pexels.com/photos/2253867/pexels-photo-2253867.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=900",
+                  "altText$L": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                "link": {
+                  "text$L": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "description$L": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "typeL": "internal",
+                  "externalLink": "",
+                  "page": "6",
+                  "section": "",
+                  "langCode": "en",
+                  "themeSwitchCustom": "dark",
+                  "icon": {
+                    "id": 1,
+                    "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
+                    "themeId": 1
+                  },
+                  "themeId": 0,
+                  "enableOnlyAfterCookieConsent": false,
+                  "id": 0,
+                  "blockEntityId": 42,
+                  "generalSlotName": "images.link"
+                },
+                "title$L": [
+                  "Hotel Resort Weddings",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "description$L": [
+                  "Your Description 3",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
               }
             ],
             "themeId": "1",
@@ -4445,6 +4503,217 @@
             "blockEntityId": 58,
             "dataStructureId": 10,
             "component_type": "custom_section_block"
+          }
+        },
+        {
+          "id": 17,
+          "slotName": "default",
+          "component": {
+            "anchorName": "section17",
+            "title$L": [
+              "hythy",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "subTitle$L": [
+              "@L{ExplorePortfolio} ",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "description$L": [
+              "Bringing ideas to life, one pixel at a time.",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "images": [
+              {
+                "image": {
+                  "imagePath": "https://images.pexels.com/photos/712651/pexels-photo-712651.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=900",
+                  "altText$L": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                "link": {
+                  "text$L": [
+                    "test",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "description$L": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "typeL": "internal",
+                  "externalLink": "",
+                  "page": "1",
+                  "section": "",
+                  "langCode": "en",
+                  "themeSwitchCustom": "dark",
+                  "icon": {
+                    "id": 1,
+                    "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
+                    "themeId": 1
+                  },
+                  "themeId": 0,
+                  "enableOnlyAfterCookieConsent": false,
+                  "id": 0,
+                  "blockEntityId": 42,
+                  "generalSlotName": "images.link"
+                },
+                "title$L": [
+                  "Title 1",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "description$L": [
+                  "Your Description 1",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              },
+              {
+                "image": {
+                  "imagePath": "https://images.pexels.com/photos/1023233/pexels-photo-1023233.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=900",
+                  "altText$L": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                "link": {
+                  "text$L": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "description$L": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "typeL": "disabled",
+                  "externalLink": "",
+                  "page": 0,
+                  "section": "",
+                  "langCode": "en",
+                  "themeSwitchCustom": "dark",
+                  "icon": {
+                    "id": 1,
+                    "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
+                    "themeId": 1
+                  },
+                  "themeId": 0,
+                  "enableOnlyAfterCookieConsent": false,
+                  "id": 0,
+                  "blockEntityId": 42,
+                  "generalSlotName": "images.link"
+                },
+                "title$L": [
+                  "Title 2",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "description$L": [
+                  "Your Description 2",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              },
+              {
+                "image": {
+                  "imagePath": "https://images.pexels.com/photos/2253867/pexels-photo-2253867.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=900",
+                  "altText$L": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                "link": {
+                  "text$L": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "description$L": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "typeL": "disabled",
+                  "externalLink": "",
+                  "page": 0,
+                  "section": "",
+                  "langCode": "en",
+                  "themeSwitchCustom": "dark",
+                  "icon": {
+                    "id": 1,
+                    "iconPath": "/assets/icons/outline/arrows/arrow-down.svg",
+                    "themeId": 1
+                  },
+                  "themeId": 0,
+                  "enableOnlyAfterCookieConsent": false,
+                  "id": 0,
+                  "blockEntityId": 42,
+                  "generalSlotName": "images.link"
+                },
+                "title$L": [
+                  "Title 3",
+                  "",
+                  "",
+                  "",
+                  ""
+                ],
+                "description$L": [
+                  "Your Description 3",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "themeId": "0",
+            "lazyLoading": false,
+            "delayAnimation": 0,
+            "enableOnlyAfterCookieConsent": false,
+            "dataStructureId": 10,
+            "component_type": "custom_section_block",
+            "blockEntityId": 58
           }
         },
         {
