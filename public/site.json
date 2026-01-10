@@ -1,6 +1,6 @@
 {
   "storeName": "website_live",
-  "lastUpdate": "2026-01-10T16:25:07.828Z",
+  "lastUpdate": "2026-01-10T16:27:14.009Z",
   "siteName": "Sandra Sammali",
   "enableCA": false,
   "siteDomain": "https://sandrasammali.com",
@@ -7265,20 +7265,6 @@
         "logoText": "Sandra Sammali",
         "mainLinks": [
           {
-            "text$L": [
-              "Portfolio",
-              "Portfolio",
-              "Portfolio",
-              "Portafolio",
-              "Portfolio"
-            ],
-            "description$L": [
-              "",
-              "",
-              "",
-              "",
-              ""
-            ],
             "typeL": "internal",
             "externalLink": "",
             "page": 0,
@@ -7294,7 +7280,21 @@
             "enableOnlyAfterCookieConsent": false,
             "id": 0,
             "blockEntityId": 54,
-            "generalSlotName": "mainLinks.this"
+            "generalSlotName": "mainLinks.this",
+            "text$L": [
+              "Real Estate",
+              "Real Estate",
+              "Real Estate",
+              "Real Estate",
+              "Real Estate"
+            ],
+            "description$L": [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
           },
           {
             "text$L": [
@@ -7361,20 +7361,6 @@
             "generalSlotName": "mainLinks.this"
           },
           {
-            "typeL": "internal",
-            "externalLink": "",
-            "page": 0,
-            "section": "manifesto",
-            "langCode": "en",
-            "themeSwitchCustom": "dark",
-            "icon": {
-              "iconPath": "/assets/icons/outline/arrows/arrow-down.svg"
-            },
-            "themeId": 0,
-            "enableOnlyAfterCookieConsent": false,
-            "id": 3,
-            "blockEntityId": 54,
-            "generalSlotName": "mainLinks.this",
             "text$L": [
               "Food",
               "Food",
@@ -7388,7 +7374,21 @@
               "",
               "",
               ""
-            ]
+            ],
+            "typeL": "internal",
+            "externalLink": "",
+            "page": 0,
+            "section": "manifesto",
+            "langCode": "en",
+            "themeSwitchCustom": "dark",
+            "icon": {
+              "iconPath": "/assets/icons/outline/arrows/arrow-down.svg"
+            },
+            "themeId": 0,
+            "enableOnlyAfterCookieConsent": false,
+            "id": 3,
+            "blockEntityId": 54,
+            "generalSlotName": "mainLinks.this"
           }
         ],
         "contact": {
